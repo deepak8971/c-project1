@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main() {
+reverse() {
 
   int n, reverse = 0, remainder;
 
-  printf("Enter an integer: ");
+  printf("\nEnter an integer: ");
   scanf("%d", &n);
 
   while (n != 0) {
@@ -15,5 +15,5 @@ int main() {
 
   printf("Reversed number = %d", reverse);
 
-  return 0;
+  //return 0;
 }
